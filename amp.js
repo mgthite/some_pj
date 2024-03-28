@@ -77,6 +77,7 @@ var current_link = "this stream link";
  function startDk(){
 
   let encode_url = encodeURI("https://www.xvideos.com"+path);
+     console.log("the url is "+encode_url);
     
 
 
@@ -123,7 +124,7 @@ var current_link = "this stream link";
 
 
  if (path != null && path != undefined){
-
+  console.log("dk started");
   startDk();
 
  }
